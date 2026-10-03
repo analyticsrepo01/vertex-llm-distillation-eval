@@ -1,0 +1,8 @@
+# Google Cloud Vertex AI & MLOps Stack
+google-cloud-aiplatform>=1.38.0
+google-cloud-storage>=2.14.0
+kfp>=2.0.0
+pandas>=2.0.0
+tabulate>=0.9.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0

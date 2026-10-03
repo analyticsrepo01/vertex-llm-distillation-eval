@@ -1,0 +1,20 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cloud Storage & Credentials
+*.jsonl
+*.csv
+credentials.json
+keyfile.json
+.env
+
+# Pipeline execution cache & logs
+pipeline_root/
+eval_output/
+*.log
