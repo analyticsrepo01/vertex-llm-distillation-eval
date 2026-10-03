@@ -62,7 +62,9 @@ flowchart TD
 ```text
 vertex-llm-distillation-eval/
 ├── assets/
-│   └── banner.jpg                            # Project architecture banner & NanoBanana mascot
+│   ├── banner.jpg                            # Project architecture banner & NanoBanana mascot
+│   ├── distillation_architecture.jpg         # Step-by-Step distillation concept infographic
+│   └── autosxs_arena.jpg                     # AutoSxS Arbiter evaluation arena infographic
 ├── distillation/
 │   └── pipeline_distillation.py              # Vertex AI Step-by-Step Distillation launcher
 ├── evaluation/
@@ -103,6 +105,8 @@ gcloud config set project YOUR_PROJECT_ID
 
 ## 🛠️ Step-by-Step Distillation
 
+![Knowledge Distillation Step-by-Step Architecture](assets/distillation_architecture.jpg)
+
 Submit a Step-by-Step Distillation pipeline job to Vertex AI:
 
 ```bash
@@ -126,6 +130,8 @@ python distillation/pipeline_distillation.py \
 ---
 
 ## ⚖️ AutoSxS (Side-by-Side) Model Evaluation
+
+![AutoSxS Evaluation Arena](assets/autosxs_arena.jpg)
 
 Compare two candidate models (e.g. baseline vs fine-tuned) using an automated Arbiter LLM on Vertex AI:
 
