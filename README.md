@@ -62,9 +62,9 @@ flowchart TD
 ```text
 vertex-llm-distillation-eval/
 ├── assets/
-│   ├── banner.jpg                            # Project architecture banner & NanoBanana mascot
-│   ├── distillation_architecture.jpg         # Step-by-Step distillation concept infographic
-│   └── autosxs_arena.jpg                     # AutoSxS Arbiter evaluation arena infographic
+│   ├── banner.jpg                            # Enterprise systems architecture banner
+│   ├── distillation_architecture.jpg         # Step-by-Step knowledge distillation schematic
+│   └── autosxs_evaluation.jpg                # AutoSxS side-by-side evaluation telemetry dashboard
 ├── distillation/
 │   └── pipeline_distillation.py              # Vertex AI Step-by-Step Distillation launcher
 ├── evaluation/
@@ -131,7 +131,7 @@ python distillation/pipeline_distillation.py \
 
 ## ⚖️ AutoSxS (Side-by-Side) Model Evaluation
 
-![AutoSxS Evaluation Arena](assets/autosxs_arena.jpg)
+![AutoSxS Evaluation Telemetry Dashboard](assets/autosxs_evaluation.jpg)
 
 Compare two candidate models (e.g. baseline vs fine-tuned) using an automated Arbiter LLM on Vertex AI:
 
